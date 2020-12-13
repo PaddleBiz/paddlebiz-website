@@ -1,0 +1,146 @@
+#heading {
+    height: 100px;
+    width: 100%;
+    background: white;
+}
+
+/* --------------------Body section----------------- */
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0;
+}
+
+#main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 600px;
+    background-color: #808080;
+}
+
+#company-info {
+    text-align:center;
+    margin-top:30px;
+}
+/* ------------------End section------------------- */
+
+/* ---------------------Navbar---------------------- */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    right: 0%;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navbar {
+  padding: 0 0 2rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+}
+/* ------------------End section------------------- */
+
+/* --------------------Services--------------------- */
+#features {
+  position: relative;
+  text-align: center;
+  padding: 0 5%;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.service-img {
+    width: 30%;
+    height: 40%;
+}
+
+#features {
+    background: #eeeeee;
+}
+
+#services-heading {
+    font-size: 35px;
+    font-family: monospace;
+}
+
+#services-body {
+    font-size: 15px;
+    font-family: monospace;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* ------------------End section------------------- */
+
+/* ---------------------Clients---------------------- */
+#clients {
+    margin-top: 30px;
+    background: white;
+    padding: 0 15%;
+}
+
+.client-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    padding: 30px 0;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 1px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.client-logo {
+    height: 70px;
+    width: 70px;
+    padding: 40px;
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+/* ------------------End section------------------- */
+
+/* --------------------Contact Us-------------------- */
+#contact-us {
+    text-align: center;
+    margin-top: 30px;
+    background: #eeeeee;
+
+}
+/* ------------------End section------------------- */
