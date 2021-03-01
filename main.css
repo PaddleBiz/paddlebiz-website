@@ -42,18 +42,19 @@ body {
 #company-info {
     text-align:center;
     margin: 30px 20% 30px 20%;
-
 }
-/* ------------------End section------------------- */
+
+/* ------------------End body section------------------- */
 
 /* ---------------------Navbar---------------------- */
 
 .navbar {
-    overflow: hidden;
     background-color: #333;
     position: absolute;
     top: 0;
     right: 0%;
+    padding: 0 0 2rem;
+    z-index: 1;
 }
 
 .navbar a {
@@ -62,15 +63,10 @@ body {
     color: white;
     text-align: center;
     padding: 14px 20px;
-    /* text-decoration: none; */
 }
 
 .nav-item {
   padding: 0 18px;
-}
-
-.navbar {
-  padding: 0 0 2rem;
 }
 
 .nav-link {
@@ -82,7 +78,7 @@ body {
     height: 80px;
     width: 200px;
 }
-/* ------------------End section------------------- */
+/* ------------------End Navbar section------------------- */
 
 /* --------------------Services--------------------- */
 #features {
@@ -115,7 +111,7 @@ body {
     margin: 0 50%;
 }
 
-/* ------------------End section------------------- */
+/* ------------------End services section------------------- */
 
 /* ---------------------Clients---------------------- */
 #clients {
@@ -156,13 +152,18 @@ h2 {
     width: 33.33%;
     text-align: center;
 }
-/* ------------------End section------------------- */
+/* ------------------End clients section------------------- */
 
 /* --------------------Contact Us-------------------- */
 #contact-us {
     text-align: center;
     margin-top: 30px;
     background: #eeeeee;
-
 }
-/* ------------------End section------------------- */
+/* ------------------End contact us section------------------- */
+
+/* -------------------Start mobile section------------------- */
+@media screen and (max-width: 650px) {
+    .image-text {left: 0px;}
+}
+/* -------------------End mobile section--------------------- */
