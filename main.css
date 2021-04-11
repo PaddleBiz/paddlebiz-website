@@ -65,18 +65,9 @@ body {
     padding: 14px 20px;
 }
 
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
-}
-
 #logo {
-    height: 80px;
-    width: 200px;
+    height: 70px;
+    width: 150px;
 }
 /* ------------------End Navbar section------------------- */
 
