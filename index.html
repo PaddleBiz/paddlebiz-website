@@ -2,10 +2,11 @@
 <html>
 <head>
     <meta charset='utf-8'>
-    <title>PaddleBiz</title>
+    <title>PaddleBiz Business Solutions</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <script src='main.js'></script>
     <link rel="icon" href="static/images/favicon.ico" type="image/ico"/>
 
@@ -23,75 +24,78 @@
     <div id="heading">
         
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-        <img id="logo" class="logo-img" src="static/images/PB_logo.png" alt="Paddle Biz Logo" />
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <a class="navbar-brand" href="">
+                <img id="logo" src="static/images/scaled.png" alt="Paddle Biz Logo" />
+            </a>
+            
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="mainNav">
+            <div class="collapse navbar-collapse" id="mainNav">
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#features">Services</a>
-            </li>
-            <li class="nav-item" style="display: none;">
-              <a class="nav-link" href="#clients">Clients</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact-us">Contact us</a>
-            </li>
-          </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Services</a>
+                    </li>
+                    <!-- <li>
+                        <a class="nav-link" href="#clients">Clients</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact-us">Contact us</a>
+                    </li>
+                </ul>
 
-        </div>
-      </nav>
+            </div>
+        </nav>
     </div>
 
     <!-- Company info -->
     <div class="content">
 
         <div class="image-container">
-            <img id="main-image" class="main-img" src="static/images/main-image-1.jpg" alt="Image of a paddle" />
+            <img id="main-image" src="static/images/main-image-3.jpg" alt="Paddlebiz business solutions main logo" />
             <div class="image-text">
-                <p>PaddleBiz Business Solutions</p>
-                <h1>Please fill this up.</h1>
+                <p>We help customers</p>
+                <h1>with radical, disruptive and revolutionary solutions</h1>
+                <h1>to <i>paddle</i> through complex problems</h1>
             </div>
         </div>
         
         <div id="company-info">
-            <h3 class="services-heading">What do we do?</h3>
-            <p class="services-body">PaddleBiz Business solutions is a company that provides customized solutions to start-ups and middle market companies, primarily in India. Our mission is to create long-term value for our clients by offering innovative investment ..solutions and attractive strategies throughout market cycles. </p>
+            <h1>What do we do?</h1>
+            <p id="company-info-text">We provide end to end customized solutions to complex problems our clients face to grow their business. Our mission is to create long-term value for our clients by offering radical and revolutionary solutions and attractive strategies to help grow and compete in a highly competative market. </p>
         </div>
     </div>
 
     <!-- Services -->
-    <section class="white-section" id="features">
+    <section id="features">
+
+        
+        <h2 id="service-heading">Our services include</h2>
 
         <div class="container-fluid">
             <div class="row">
                 <div class="feature-box col-lg-4">
                     <img class="service-img" src="static/images/service_1.png"/>
-                    <h3 class="feature-title">Consulting 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="feature-title">Business process reengineering</h3>
+                    <p>Learn how your organization can be improved by letting us analyze your company's workflow. We will help you improve your customer service, cut unnecessary costs and navigate unforseen challenges.</p>
                 </div>
 
                 <div class="feature-box col-lg-4">
                     <img class="service-img" src="static/images/service_2.png"/>
-                    <h3 class="feature-title">Management 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="feature-title">Customer relationship management</h3>
+                    <p>Need help dealing with customers? Our team is well versed in multiple different languages and live in different parts of the world who can help you leverage your customer management skills for better success.</p>
                 </div>
 
                 <div class="feature-box col-lg-4">
                     <img class="service-img" src="static/images/service_3.png"/>
-                    <h3 class="feature-title">Investing</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <h3 class="feature-title">Investing and staffing</h3>
+                    <p>Learn how and where to get an influx of financial investment to grow your business.
+                        Need a staffing resource but have no budget or time to hire this resource? We can help you.</p>
                 </div>
             </div>
         </div>
@@ -119,12 +123,22 @@
     </section>
 
     <!-- Contact us -->
-    <div id="contact-us">
-        <div class="content">
-            <h2>Contact Us</h2>
-            <p>We would love to talk to you!</p>
-            <a href="mailto:info@paddlebiz.com">Contact us now</a>
+    <div id="contact-us" class="container">
+        <div style="text-align:center">
+            <h2>Let's talk</h2>
+            <p>Swing by for a cup of coffee, or leave us a message:</p>
         </div>
+            <form action="mail.php" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email address.">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
     </div>
 
 </body>
