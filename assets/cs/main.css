@@ -295,6 +295,18 @@ body {
     margin: 0;
 }
 
+.title {
+    font-size: 88px;
+    line-height: 96px;
+    color: #fff;
+    font-weight: 700; }
+
+.text {
+    font-size: 25px;
+    line-height: 20px;
+    color: #121212;
+    margin-top: 16px; }
+
 #main-image {
     display: block;
     margin: auto;
