@@ -296,15 +296,15 @@ body {
 }
 
 .title {
-    font-size: 88px;
+    font-size: 90px;
     line-height: 96px;
     color: #fff;
     font-weight: 700; }
 
 .text {
-    font-size: 25px;
-    line-height: 20px;
-    color: #121212;
+    font-size: 30px;
+    line-height: 25px;
+    color: #ffffff;
     margin-top: 16px; }
 
 #main-image {
@@ -321,7 +321,7 @@ body {
 
 .image-text {
   position: absolute;
-  bottom: 100px;
+  bottom: 30%;
   left: 150px;
   font-family: 'Montserrat', sans-serif;
   font-size: 400%;
@@ -339,7 +339,8 @@ body {
 }
 
 #company-info-text {
-    font-size: 120%;
+    font-size: 140%;
+    line-height: 45px;
 }
 
 /* ------------------End body section------------------- */
@@ -426,6 +427,7 @@ h2 {
 #contact-us {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 30px;
     background: #eeeeee;
 }
 
@@ -457,11 +459,11 @@ input[type=submit]:hover {
 }
 
 /* Style the container/contact section */
-.container {
+/* .container {
   border-radius: 5px;
   background-color: #ffffff;
   padding: 50px;
-}
+} */
 
 /* Create two columns that float next to eachother */
 .column {
@@ -493,3 +495,63 @@ input[type=submit]:hover {
     .image-text {left: 0px;}
 }
 /* -------------------End mobile section--------------------- */
+
+.footer-area {
+  background-color: #f4f6f7;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .footer-area .social li {
+    display: inline-block;
+    margin: 0 5px; }
+    .footer-area .social li a {
+      font-size: 24px;
+      color: #6c6c6c;
+      -webkit-transition: all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s; }
+      .footer-area .social li a:hover {
+        color: #0067f4; }
+  .footer-area .footer-support {
+    padding-top: 21px; }
+    .footer-area .footer-support span {
+      font-size: 16px;
+      line-height: 24px;
+      color: #121212;
+      font-weight: 600;
+      margin-top: 9px;
+      display: block; }
+      @media (max-width: 767px) {
+        .footer-area .footer-support span {
+          display: block; } }
+  .footer-area .footer-app-store {
+    padding-top: 27px; }
+    .footer-area .footer-app-store ul li {
+      display: inline-block;
+      margin-right: 8px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .footer-area .footer-app-store ul li {
+          margin-right: 6px; } }
+      .footer-area .footer-app-store ul li:last-child {
+        margin-right: 0; }
+      @media (max-width: 767px) {
+        .footer-area .footer-app-store ul li {
+          width: 120px; } }
+      @media only screen and (min-width: 576px) and (max-width: 767px) {
+        .footer-area .footer-app-store ul li {
+          width: auto; } }
+  .footer-area.footer-dark {
+    background-color: #121212; }
+    .footer-area.footer-dark .social li a {
+      color: #fff; }
+    .footer-area.footer-dark .footer-support {
+      padding-top: 21px; }
+      .footer-area.footer-dark .footer-support span {
+        color: #fff; }
+    .footer-area.footer-dark .footer-app-store {
+      padding-top: 27px; }
+      .footer-area.footer-dark .footer-app-store ul li {
+        color: #fff; }
+    .footer-area.footer-dark .copyright .text {
+      color: #fff; }
