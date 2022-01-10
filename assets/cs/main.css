@@ -317,13 +317,13 @@ body {
 .main-text {
   position: absolute;
   z-index: 1; 
-  margin-top: 18%;
+  margin-top: 22%;
   margin-left: 5%;
 }
 
 #company-info {
   text-align:center;
-  margin: 80px 20% 80px 20%;
+  margin: 60px 10% 0px 10%;
 }
 
 #company-info-text {
@@ -333,53 +333,54 @@ body {
 
 #company-info-img {
   width: 50%;
-  margin-left: 25%;
+  margin: 0px 25% 50px 25%;
 }
 
 /* ------------------End body section------------------- */
 
 /* ------------------Slider section------------------- */
-.carousel-item {
-  background-color: #ececec;
-  position: relative; }
-  .carousel-item::before {
-    position: absolute;
-    content: '';
-    width: 33%;
-    height: 100%;
-    background: -webkit-linear-gradient(rgba(59, 59, 59, 0.3) 0%, rgba(37, 37, 37, 0.3) 100%);
-    background: -o-linear-gradient(rgba(41, 40, 40, 0.3) 0%, rgba(19, 18, 18, 0.3) 100%);
-    background: linear-gradient(rgba(19, 18, 18, 0.3) 0%, rgba(19, 18, 18, 0.3) 100%);
-    top: 0;
-    right: 15%;
-    -webkit-transform: skewX(20deg);
-    -moz-transform: skewX(20deg);
-    -ms-transform: skewX(20deg);
-    -o-transform: skewX(20deg);
-    transform: skewX(20deg); }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .carousel-item::before {
-        width: 40%; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .carousel-item::before {
-        width: 60%; } }
-    @media (max-width: 767px) {
-      .carousel-item::before {
-        width: 50%;
-        right: 45%; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .carousel-item::before {
-        right: 25%; } }
-  .carousel-item .slider-image-box {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    z-index: 9; }
-    .carousel-item .slider-image-box .slider-image {
-      max-width: 680px;
-      width: 100%; }
+.carousel-item::before {
+  position: absolute;
+  content: '';
+  width: 33%;
+  height: 100%;
+  background: -webkit-linear-gradient(rgba(214, 45, 45, 0.3) 0%, rgba(223, 141, 141, 0.3) 100%);
+  background: -o-linear-gradient(rgba(41, 40, 40, 0.3) 0%, rgba(19, 18, 18, 0.3) 100%);
+  background: linear-gradient(rgba(19, 18, 18, 0.3) 0%, rgba(19, 18, 18, 0.3) 100%);
+  top: 0;
+  right: 15%;
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+  transform: skewX(20deg); }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .carousel-item::before {
+      width: 40%; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .carousel-item::before {
+      width: 60%; } }
+  @media (max-width: 767px) {
+    .carousel-item::before {
+      width: 50%;
+      right: 45%; } }
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .carousel-item::before {
+      right: 25%; } 
+    }
+.carousel-item .slider-image-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  z-index: 9; 
+}
+.carousel-item .slider-image-box .slider-image {
+  max-width: 680px;
+  width: 50%;
+  margin: 5px 20px;
+}
 
 .slider-content {
   position: relative;
@@ -501,7 +502,7 @@ body {
       right: 30px; } }
   @media (max-width: 767px) {
     .carousel .carousel-control-next {
-      right: 30px; } }
+      right: 30px; } } 
 
 /* ------------------Slider section ends------------------- */
 
@@ -591,6 +592,14 @@ h2 {
     background: #eeeeee;
 }
 
+#contact-msg {
+  padding-top: 20px;
+}
+
+#form {
+  padding-bottom: 20px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -622,7 +631,9 @@ input[type=submit]:hover {
 /* .container {
   border-radius: 5px;
   background-color: #ffffff;
-  padding: 50px;
+  padding: 50px; 
+  margin: 10px 15px;
+  position: relative;
 } */
 
 /* Create two columns that float next to eachother */
